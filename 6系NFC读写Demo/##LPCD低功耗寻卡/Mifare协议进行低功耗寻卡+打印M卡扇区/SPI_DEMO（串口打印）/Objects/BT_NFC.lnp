@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+".\objects\core_cm0.o"
+".\objects\startup_xinc.o"
+".\objects\system_xinc.o"
+".\objects\main.o"
+".\Library_function\M0\LIB\Xinc_ble_sdk_nonlowpowerv1.2.lib"
+".\objects\cv663.o"
+".\objects\iso14443.o"
+".\objects\patch.o"
+".\objects\gatt_client.o"
+".\objects\rf_driver.o"
+".\objects\xinchip_ota.o"
+".\objects\bsp_gpio.o"
+".\objects\bsp_uart.o"
+".\objects\bsp_wdog.o"
+".\objects\bsp_retarget.o"
+".\objects\bsp_spi_master.o"
+".\objects\bsp_systick.o"
+".\objects\bt.o"
+".\objects\led.o"
+".\objects\m0_delay.o"
+".\objects\buzzer.o"
+--strict --scatter ".\Library_function\M0\Startup\cpu.scat"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\BT_NFC.map" -o .\Objects\BT_NFC.axf

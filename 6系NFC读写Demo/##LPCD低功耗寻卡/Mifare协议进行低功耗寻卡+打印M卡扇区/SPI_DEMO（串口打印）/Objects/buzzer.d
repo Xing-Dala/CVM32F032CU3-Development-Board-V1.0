@@ -1,0 +1,31 @@
+.\objects\buzzer.o: Library_function\Peripheral\Buzzer\Buzzer.c
+.\objects\buzzer.o: .\App\main.h
+.\objects\buzzer.o: F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\Bin\..\include\stdio.h
+.\objects\buzzer.o: F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\Bin\..\include\string.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\xinc_m0.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\core_cm0.h
+.\objects\buzzer.o: F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\Bin\..\include\stdint.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\core_cmInstr.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\core_cmFunc.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\xinc_reg.h
+.\objects\buzzer.o: .\Library_function\M0\Startup\xinc_map.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_gpio.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_timer.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_uart.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_wdog.h
+.\objects\buzzer.o: .\App\main.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_register_macro.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_com_spi.h
+.\objects\buzzer.o: .\Library_function\M0\Bsp\bsp_spi_master.h
+.\objects\buzzer.o: .\Library_function\M0\Ble\OTA_ble\ble.h
+.\objects\buzzer.o: .\Library_function\M0\Ble\OTA_ble\bluetooth.h
+.\objects\buzzer.o: .\Library_function\Bluetooth\BT.h
+.\objects\buzzer.o: .\Library_function\M0\Ble\btstack\src\btstack_defines.h
+.\objects\buzzer.o: .\Library_function\M0\Ble\btstack\src\btstack_linked_list.h
+.\objects\buzzer.o: .\Library_function\Bluetooth\xinchip_ota.h
+.\objects\buzzer.o: .\Library_function\M0\Delay\M0_Delay.h
+.\objects\buzzer.o: .\Library_function\Peripheral\NFC\CV663.h
+.\objects\buzzer.o: .\Library_function\Peripheral\NFC\Status.h
+.\objects\buzzer.o: .\Library_function\Peripheral\NFC\ISO14443.h
+.\objects\buzzer.o: .\Library_function\Peripheral\Buzzer\Buzzer.h
+.\objects\buzzer.o: .\Library_function\Peripheral\LED\LED.h

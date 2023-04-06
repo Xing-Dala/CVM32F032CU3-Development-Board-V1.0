@@ -1,0 +1,296 @@
+{
+  "name": "SPI_Demo",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [
+    ".eide/deps"
+  ],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "startup",
+        "files": [
+          {
+            "path": "Library_function/M0/Startup/core_cm0.c"
+          },
+          {
+            "path": "Library_function/M0/Startup/startup_xinc.s"
+          },
+          {
+            "path": "Library_function/M0/Startup/system_xinc.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "App",
+        "files": [
+          {
+            "path": "App/main.c"
+          },
+          {
+            "path": "Library_function/M0/LIB/Xinc_ble_sdk_nonlowpowerv1.2.lib"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "NFC",
+        "files": [
+          {
+            "path": "Library_function/Peripheral/NFC/CV663.c"
+          },
+          {
+            "path": "Library_function/Peripheral/NFC/ISO14443.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Ble",
+        "files": [
+          {
+            "path": "Library_function/M0/Ble/patch.c"
+          },
+          {
+            "path": "App/gatt_client.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/rf_driver.c"
+          },
+          {
+            "path": "Library_function/Bluetooth/xinchip_ota.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "bsp",
+        "files": [
+          {
+            "path": "Library_function/M0/Bsp/bsp_gpio.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/bsp_uart.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/bsp_wdog.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/bsp_retarget.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/bsp_spi_master.c"
+          },
+          {
+            "path": "Library_function/M0/Bsp/bsp_systick.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BT",
+        "files": [
+          {
+            "path": "Library_function/Bluetooth/BT.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "LED",
+        "files": [
+          {
+            "path": "Library_function/Peripheral/LED/LED.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Delay",
+        "files": [
+          {
+            "path": "Library_function/M0/Delay/M0_Delay.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Buzzer",
+        "files": [
+          {
+            "path": "Library_function/Peripheral/Buzzer/Buzzer.c"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "51047ea928cdfcf845d1ebfdc067c13e"
+  },
+  "targets": {
+    "ble-sdk": {
+      "excludeList": [],
+      "toolchain": "AC5",
+      "compileConfig": {
+        "cpuType": "Cortex-M0",
+        "floatingPointHardware": "none",
+        "scatterFilePath": "Library_function/M0/Startup/cpu.scat",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [
+            {
+              "tag": "RAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "RAM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x20000000",
+                "size": "0x20000"
+              },
+              "isChecked": false,
+              "noInit": false
+            },
+            {
+              "tag": "IRAM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "noInit": false
+            }
+          ],
+          "ROM": [
+            {
+              "tag": "ROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "ROM",
+              "id": 3,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            },
+            {
+              "tag": "IROM",
+              "id": 1,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x40000"
+              },
+              "isChecked": false,
+              "isStartup": true
+            },
+            {
+              "tag": "IROM",
+              "id": 2,
+              "mem": {
+                "startAddr": "0x0",
+                "size": "0x0"
+              },
+              "isChecked": false,
+              "isStartup": false
+            }
+          ]
+        },
+        "options": "null"
+      },
+      "uploader": "JLink",
+      "uploadConfig": {
+        "bin": "",
+        "baseAddr": "",
+        "cpuInfo": {
+          "vendor": "null",
+          "cpuName": "null"
+        },
+        "proType": 1,
+        "speed": 8000,
+        "otherCmds": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "App",
+          "Library_function/M0/Ble/btstack",
+          "Library_function/M0/Ble/btstack/src",
+          "Library_function/M0/Ble/btstack/src/ble",
+          "Library_function/M0/Ble/btstack/src/ble/gatt-service",
+          "Library_function/M0/Ble/btstack/src/classic",
+          "Library_function/M0/Ble/OTA_ble",
+          "Library_function/M0/Bsp",
+          "Library_function/M0/Delay",
+          "Library_function/M0/LIB",
+          "Library_function/M0/Startup",
+          "Library_function/Bluetooth",
+          "Library_function/Peripheral/NFC",
+          "Library_function/Peripheral/Buzzer",
+          "Library_function/Peripheral/LED",
+          ".cmsis/include",
+          "RTE/_ble-sdk",
+          ".eide/deps"
+        ],
+        "libList": [],
+        "sourceDirList": [],
+        "defineList": []
+      }
+    }
+  },
+  "version": "3.3"
+}
