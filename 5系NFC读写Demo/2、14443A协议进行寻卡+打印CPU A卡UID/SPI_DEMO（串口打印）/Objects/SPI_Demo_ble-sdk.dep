@@ -1,0 +1,464 @@
+Dependencies for Project 'SPI_Demo', Target 'ble-sdk': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\AC506u7
+F (.\Library_function\M0\Startup\core_cm0.c)(0x60EFD992)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\core_cm0.o --omf_browse .\objects\core_cm0.crf --depend .\objects\core_cm0.d)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+F (.\Library_function\M0\Startup\startup_xinc.s)(0x60EFD992)(--cpu Cortex-M0 --li -g --apcs=interwork -I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"--pd "__UVISION_VERSION SETA 537" --pd "ARMCM0 SETA 1"--list .\listings\startup_xinc.lst --xref -o .\objects\startup_xinc.o --depend .\objects\startup_xinc.d)
+F (.\Library_function\M0\Startup\system_xinc.c)(0x60EFD992)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\system_xinc.o --omf_browse .\objects\system_xinc.crf --depend .\objects\system_xinc.d)
+F (.\App\main.c)(0x6406AE08)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\App\main.h)(0x6406AAFB)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\LIB\Xinc_ble_sdk_nonlowpowerv1.2.lib)(0x60EFD996)()
+F (.\Library_function\Peripheral\NFC\CV520.c)(0x6406B26B)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\cv520.o --omf_browse .\objects\cv520.crf --depend .\objects\cv520.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\Peripheral\NFC\ISO14443.c)(0x6406AD6E)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\iso14443.o --omf_browse .\objects\iso14443.crf --depend .\objects\iso14443.d)
+I (Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\String.h)(0x6336A152)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\App\main.h)(0x6406AAFB)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Ble\patch.c)(0x631FDA56)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\patch.o --omf_browse .\objects\patch.crf --depend .\objects\patch.d)
+F (.\App\gatt_client.c)(0x63E1B637)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\gatt_client.o --omf_browse .\objects\gatt_client.crf --depend .\objects\gatt_client.d)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Ble\btstack\btstack_config.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\ble\att_dispatch.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\btstack_util.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\bluetooth.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\ad_parser.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\ble\att_db.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\ble\core.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\ble\gatt_client.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\hci.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_chipset.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_control.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/btstack_link_key_db.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\hci_cmd.h)(0x60EFD996)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdarg.h)(0x5E8E3CC2)
+I (.\Library_function\M0\Ble\btstack\src\gap.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\hci_transport.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_uart_block.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_em9304_spi.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_run_loop.h)(0x60EFD996)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdlib.h)(0x5E8E3CC2)
+I (.\Library_function\M0\Ble\btstack\src\ble\le_device_db.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\ble\sm.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\btstack\src\btstack_debug.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\hci_dump.h)(0x60EFD996)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (.\Library_function\M0\Ble\btstack\src\btstack_event.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_memory.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\l2cap.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\l2cap_signaling.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/bnep.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/hfp.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/sdp_client_rfcomm.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/btstack_link_key_db_memory.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/rfcomm.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/sdp_server.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/avdtp_sink.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/avdtp.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\btstack_ring_buffer.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/avdtp_source.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic/avrcp.h)(0x60EFD996)
+I (.\Library_function\M0\Ble\btstack\src\classic\sdp_util.h)(0x60EFD996)
+F (.\Library_function\M0\Bsp\rf_driver.c)(0x631FE80C)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\rf_driver.o --omf_browse .\objects\rf_driver.crf --depend .\objects\rf_driver.d)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+F (.\Library_function\Bluetooth\xinchip_ota.c)(0x63ABA12C)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\xinchip_ota.o --omf_browse .\objects\xinchip_ota.crf --depend .\objects\xinchip_ota.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_gpio.c)(0x63AEEEE4)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_gpio.o --omf_browse .\objects\bsp_gpio.crf --depend .\objects\bsp_gpio.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_uart.c)(0x63996B1A)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_uart.o --omf_browse .\objects\bsp_uart.crf --depend .\objects\bsp_uart.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_wdog.c)(0x639A7E56)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_wdog.o --omf_browse .\objects\bsp_wdog.crf --depend .\objects\bsp_wdog.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_retarget.c)(0x63A55220)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_retarget.o --omf_browse .\objects\bsp_retarget.crf --depend .\objects\bsp_retarget.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_spi_master.c)(0x63AA5E64)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_spi_master.o --omf_browse .\objects\bsp_spi_master.crf --depend .\objects\bsp_spi_master.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Bsp\bsp_systick.c)(0x639A7EDE)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bsp_systick.o --omf_browse .\objects\bsp_systick.crf --depend .\objects\bsp_systick.d)
+F (.\Library_function\Bluetooth\BT.c)(0x63E1B64B)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\bt.o --omf_browse .\objects\bt.crf --depend .\objects\bt.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+I (.\Library_function\M0\Ble\OTA_ble\profile.h)(0x63BE2033)
+F (.\Library_function\Peripheral\LED\LED.c)(0x63EC982E)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\M0\Delay\M0_Delay.c)(0x63BE7916)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\m0_delay.o --omf_browse .\objects\m0_delay.crf --depend .\objects\m0_delay.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
+F (.\Library_function\Peripheral\Buzzer\Buzzer.c)(0x63EC98D3)(--c99 -c --cpu Cortex-M0 --li -g -O3 --apcs=interwork --split_sections -I .\App -I .\Library_function\M0\Ble\btstack -I .\Library_function\M0\Ble\btstack\src -I .\Library_function\M0\Ble\btstack\src\ble -I .\Library_function\M0\Ble\btstack\src\ble\gatt-service -I .\Library_function\M0\Ble\btstack\src\classic -I .\Library_function\M0\Ble\OTA_ble -I .\Library_function\M0\Bsp -I .\Library_function\M0\Delay -I .\Library_function\M0\LIB -I .\Library_function\M0\Startup -I .\Library_function\Bluetooth -I .\Library_function\Peripheral\NFC -I .\Library_function\Peripheral\Buzzer -I .\Library_function\Peripheral\LED -I .\Library_function\Peripheral\Buzzer-I"F:\Program Files (x86)\Keil\Keil_ARM\ARM\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM0\Include"-D__UVISION_VERSION="537" -DARMCM0-o .\objects\buzzer.o --omf_browse .\objects\buzzer.crf --depend .\objects\buzzer.d)
+I (.\App\main.h)(0x6406AAFB)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdio.h)(0x631AEA05)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\string.h)(0x6336A152)
+I (.\Library_function\M0\Startup\xinc_m0.h)(0x63212DBC)
+I (.\Library_function\M0\Startup\core_cm0.h)(0x60EFD992)
+I (F:\Program Files (x86)\Keil\Keil_ARM\ARM\AC506u7\include\stdint.h)(0x631FDD0A)
+I (.\Library_function\M0\Startup\core_cmInstr.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\core_cmFunc.h)(0x60EFD992)
+I (.\Library_function\M0\Startup\xinc_reg.h)(0x63185B12)
+I (.\Library_function\M0\Startup\xinc_map.h)(0x60EFD992)
+I (.\Library_function\M0\Bsp\bsp_gpio.h)(0x63AEEED6)
+I (.\Library_function\M0\Bsp\bsp_timer.h)(0x63A54A44)
+I (.\Library_function\M0\Bsp\bsp_uart.h)(0x63A54AA6)
+I (.\Library_function\M0\Bsp\bsp_wdog.h)(0x639938DE)
+I (.\Library_function\M0\Bsp\bsp_register_macro.h)(0x63A54A20)
+I (.\Library_function\M0\Bsp\bsp_com_spi.h)(0x631FDB52)
+I (.\Library_function\M0\Bsp\bsp_spi_master.h)(0x63A96742)
+I (.\Library_function\M0\Ble\OTA_ble\ble.h)(0x60EFD994)
+I (.\Library_function\M0\Ble\OTA_ble\bluetooth.h)(0x60EFD994)
+I (.\Library_function\Bluetooth\BT.h)(0x63B52183)
+I (.\Library_function\M0\Ble\btstack\src\btstack_defines.h)(0x63A50AFC)
+I (.\Library_function\M0\Ble\btstack\src\btstack_linked_list.h)(0x60EFD996)
+I (.\Library_function\Bluetooth\xinchip_ota.h)(0x63ABB582)
+I (.\Library_function\M0\Delay\M0_Delay.h)(0x63993D68)
+I (.\Library_function\Peripheral\NFC\CV520.h)(0x6406ABD1)
+I (.\Library_function\Peripheral\NFC\RC52x.h)(0x634639FB)
+I (.\Library_function\Peripheral\NFC\Status.h)(0x6343DD8B)
+I (.\Library_function\Peripheral\NFC\ISO14443.h)(0x6406AD84)
+I (.\Library_function\Peripheral\Buzzer\Buzzer.h)(0x63B3D493)
+I (.\Library_function\Peripheral\LED\LED.h)(0x63DB7E9D)
